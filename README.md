@@ -42,16 +42,6 @@ It fetches student data from a remote JSON API, displays it in a list, and allow
 
 ---
 
-## 🖼️ Screenshots
-
-| JSON Decoding | List View | Encoding Output |
-|----------------|------------|----------------|
-| <img src="assets/decoded.png" width="250"/> | <img src="assets/list_view.png" width="250"/> | <img src="assets/encoded.png" width="250"/> |
-
-*(Replace the image paths above with your actual screenshot paths.)*
-
----
-
 ## 🧾 Example Code Snippet
 
 ```swift
