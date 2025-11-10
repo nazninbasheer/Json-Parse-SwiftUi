@@ -1,3 +1,4 @@
+//json parse 
 
 import SwiftUI
 
@@ -5,6 +6,8 @@ struct ContentView: View {
     
     @State var result :[Student] = []
      let url = URL(string: "https://mocki.io/v1/e2f72a74-218a-47c3-9db8-4bb2cf12b05a")!
+  
+    //to search student by name
     
     @State var search = ""
     
@@ -15,14 +18,15 @@ struct ContentView: View {
                 .font(.headline)
                 .fontWeight(.bold).padding()
             HStack{
-                
+                //button to decode data                
             Button("Get Students Data"){
                 
                 Task{ await fetchStudent() }
                 
             }.buttonStyle(.borderedProminent)
                 .padding()
-                
+
+                //button to encode data 
                 Button("Encode"){
                     
                     if let encoded = try? JSONEncoder().encode(result), let jsonString = String(data: encoded, encoding: .utf8)
