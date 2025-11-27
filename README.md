@@ -33,9 +33,3 @@ It fetches student data from a remote JSON API, displays it in a list, and allow
 
 ---
 
-## 🧱 Tech Stack
-
-- **Language:** Swift  
-- **Framework:** SwiftUI  
-- **Networking:** URLSession (async/await)  
-- **Data Handling:** Codable (JSONEncoder / JSONDecoder)  
